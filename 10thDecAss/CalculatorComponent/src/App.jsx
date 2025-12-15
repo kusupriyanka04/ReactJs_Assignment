@@ -1,12 +1,13 @@
-import Counter from './Counter';
+
 import './App.css'
+import Calculator from './Calculator';
 
 function App() {
   
 
   return (
     <>
-       <Counter/>
+       <Calculator/>
     </>
   );
 }
