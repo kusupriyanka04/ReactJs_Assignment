@@ -1,0 +1,20 @@
+import { useContext } from "react";
+import Component4 from "./Component4";
+import { AppContext } from "../Context/AppContext";
+
+
+function Component3(){
+
+    const { a, b } = useContext(AppContext);
+    return(
+        <>
+        <h3>Component3</h3>
+        <h4>This is Prop a: {a}</h4>
+        <h4>This is Prop b: {b}</h4>
+        <Component4/>
+        </>
+    );
+}
+
+
+export default Component3;
