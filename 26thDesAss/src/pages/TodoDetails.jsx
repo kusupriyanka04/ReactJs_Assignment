@@ -23,7 +23,7 @@ const TodoDetails = () => {
             <p><strong>ID:</strong> {todo.id}</p>
             <p><strong>Title:</strong> {todo.title}</p>
             <p><strong>Status:</strong> {" "}
-            {todo.completed ? "Completed" : "Pending"}
+            {todo.completed ? "✅ Completed" : "❌ Pending"}
             </p>
 
             <Link to="/">Back to Todo List</Link>

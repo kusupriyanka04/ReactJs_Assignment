@@ -22,7 +22,7 @@ const TodoList = () =>{
                     <li key={todo.id}>
                        <Link to={`/todo/${todo.id}`}>
                          {todo.title} - {" "}
-                         {todo.completed ? "Completed" : "Pending" }
+                         {todo.completed ? "✅ Completed" : "❌ Pending" }
                        </Link> 
                     </li>
                 ))}
